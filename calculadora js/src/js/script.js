@@ -20,7 +20,7 @@ function inserir(value) {
         calculate();
     }
     else{
-         let number=document.querySelector("#result").innerHTML+=value;
+         let result=document.querySelector("#result").innerHTML+=value;
     }
 }
 
@@ -29,9 +29,9 @@ function clear() {
 }
 
 function back() {
-    let number=document.querySelector("#result").innerHTML;
+    let result=document.querySelector("#result").innerHTML;
 
-    document.querySelector("#result").innerHTML=number.substring(0,number.length-1);
+    document.querySelector("#result").innerHTML=result.substring(0,number.length-1);
 }
 
 function calculate(){
